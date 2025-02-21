@@ -4,7 +4,7 @@ import FolderCopyIcon from '@mui/icons-material/FolderCopy';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import PersonIcon from '@mui/icons-material/Person';
 import SchoolIcon from '@mui/icons-material/School';
-import ContactsIcon from '@mui/icons-material/Contacts';
+import SmsIcon from '@mui/icons-material/Sms';
 
 export const SidebarData = [
 
@@ -35,7 +35,7 @@ export const SidebarData = [
     },
     {
         titre : "Contact",
-        icone : <ContactsIcon />,
+        icone : <SmsIcon />,
         lien : "/professionel",
     },
 ]

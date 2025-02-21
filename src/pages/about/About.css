@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+.About {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(145deg, rgb(108, 122, 255) 0%, rgb(45, 63, 226) 50%, rgb(0, 12, 121) 100%);
+}
+
+/* LOGO */
+.logo-zone {
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.logo-zone #logo-home {
+    height: 100%;
+    width: 100%;
+}
+
+/* TEXTE */
+.name-post-zone {
+    font-family: "Kantumruy Pro", serif;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.name-post-zone h1 {
+    font-size: 5vw;
+}
+
+.name-post-zone h2 {
+    font-size: 1.73vw;
+}
+
+/* ANIMATION */
+@keyframes backInLeft {
+    0% {
+        transform: translateX(-40vw) scale(0.7);
+        opacity: 0;
+    }
+
+    80% {
+        transform: translateX(5vw) scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-back-in-left {
+    animation: backInLeft 1s ease-out;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+    .logo-zone {
+        height: 50vw;
+        width: 50vw;
+        top: 23%;
+        left: 50%;
+    }
+
+    .name-post-zone {
+        left: 50%;
+        top: 58%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-post-zone h1 {
+        font-size: 11vw;
+    }
+    
+    .name-post-zone h2 {
+        margin: 20px;
+        font-size: 3.6vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-zone {
+        height: 60vw;
+        width: 60vw;
+        top: 20%;
+        left: 50%;
+    }
+
+    .name-post-zone {
+        left: 50%;
+        top: 53%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-post-zone h1 {
+        font-size: 15vw;
+    }
+    
+    .name-post-zone h2 {
+        margin: 20px;
+        font-size: 5.2vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+}

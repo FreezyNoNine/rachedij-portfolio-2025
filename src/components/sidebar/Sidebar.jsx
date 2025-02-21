@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../../App.css";
+import "./Sidebar.css";
 import { SidebarData } from './SidebarData';
 
 function Sidebar() {

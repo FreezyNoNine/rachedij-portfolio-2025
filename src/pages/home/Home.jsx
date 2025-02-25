@@ -6,7 +6,45 @@ function Home() {
 
     return (
         <div className='Home'>
-            <div className="logo-zone">
+            <div className='circle-zone'>
+                <div class="snowflakes" aria-hidden="true">
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                    <div class="snowflake">
+                        <div class="inner">❅</div>
+                    </div>
+                </div>
                 <img src={Logo} alt="Logo" id='logo-home'></img>
             </div>
             <div className='name-post-zone'>

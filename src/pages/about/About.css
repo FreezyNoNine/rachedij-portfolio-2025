@@ -1,5 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 .About {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(145deg, rgb(21, 255, 0) 0%, rgb(24, 141, 44) 50%, rgb(29, 80, 18) 100%);
+    background: linear-gradient(145deg, rgb(36, 36, 36) 0%, rgb(22, 22, 22) 50%, rgb(0, 0, 0) 100%);
+}
+
+
+.avatar-zone {
+    height: 100%;
+    width: 23%;
+    position: absolute;
+    left: 10%;
+}
+
+#logo-about {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.pres-content-zone {
+    display: flex;
+    position: relative;
+    width: 45vw;
+    left: 45%;
+    top: 10%;
+    font-size: 1.85vw;
+}
+
+.desc-pres {
+    font-family: "Sriracha", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(148, 148, 148);
+}
+
+#gras {
+    color: rgb(179, 179, 179);
+    font-weight: 500;
+}
+
+.title-tiny-screen-zone {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+
+    .avatar-zone {
+        display: none;
+    }
+
+    .title-tiny-screen-zone {
+        font-family: "Sriracha", serif;
+        font-weight: 400;
+        font-style: normal;
+        display: inherit;
+        color: rgb(218, 218, 218);
+        position: absolute;
+        left: 50%;
+        top: 108%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5vw;
+    }
+
+    .pres-content-zone {
+        width: 65vw;
+        left: 17.5%;
+        top: 15%;
+        font-size: 3.4vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .title-tiny-screen-zone {
+        left: 50%;
+        top: 108%;
+        transform: translate(-50%, -50%);
+        font-size: 3.5vw;
+    }
+
+    .pres-content-zone {
+        width: 65vw;
+        left: 17.5%;
+        top: 15%;
+        font-size: 4.5vw;
+    }
+
 }

@@ -1,0 +1,19 @@
+{
+    "cards": [
+        {
+            "id": "1",
+            "image": "/discord_command.gif",
+            "href": "https://github.com/FreezyNoNine/assistant-des-sio"
+        },
+        {
+            "id": "2",
+            "image": "/royal_hair.png",
+            "href": "https://github.com/FreezyNoNine/royal-hair-coiffure"
+        },
+        {
+            "id": "3",
+            "image": "/tetris.gif",
+            "href": "https://github.com/FreezyNoNine/ndi_tetris"
+        }
+    ]
+}

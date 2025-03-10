@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 .Projets {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(145deg, rgb(0, 0, 0) 0%, rgb(58, 53, 12) 50%, rgb(141, 127, 22) 100%);
+    background: linear-gradient(145deg, rgb(0, 32, 58) 0%, rgb(0, 58, 105) 50%, rgb(0, 109, 199) 100%);
+    overflow: hidden;
 }
 
 .carousel {
@@ -16,13 +17,13 @@
 .card {
     cursor: pointer;
     position: absolute;
-    top: 0;
+    top: -25%;
     right: 0;
     bottom: 0;
-    left: -25%;
+    left: 0;
     margin: auto;
-    width: 50vw;
-    height: 30vw;
+    width: 40vw;
+    height: 20vw;
     object-fit: cover;
     z-index: 0;
     opacity: 0;
@@ -37,7 +38,7 @@
 }
 
 .card--left {
-    transform: translateX(-120%) scale(0.8);
+    transform: translateX(120%) scale(0.8);
     transition: 500ms;
     opacity: 0.3;
 }
@@ -50,11 +51,11 @@
 
 .Barres {
     position: absolute;
-    top: 50%;
-    right: 5vw;
+    top: 75%;
+    right: 2.3%;
     transform: translateY(-50%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2vw;
 }
 
@@ -63,14 +64,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(145deg, rgb(70, 65, 27) 0%, rgb(58, 53, 12) 50%, rgb(141, 127, 22) 100%);
+    background: linear-gradient(145deg, rgb(0, 32, 58) 0%, rgb(0, 58, 105) 50%, rgb(0, 109, 199) 100%);
     box-shadow: 0px 0px 10px black;
     width: 30vw;
-    height: 8vw;
+    height: 5vw;
     font-size: 2vw;
     border-radius: 30px;
-    font-family: "Sriracha", serif;
-    font-weight: 400;
+    font-family: "Titan One", sans-serif;
 }
 
 .barre-royalhair {}
@@ -87,7 +87,7 @@ span {
 @media (max-width: 1200px) {
 
     .card {
-        top: -30%;
+        top: -40%;
         left: 0;
         width: 70vw;
         height: 50vw;
@@ -97,6 +97,7 @@ span {
         top: 70%;
         right: 15%;
         gap: 4vw;
+        flex-direction: column;
     }
 
     .barre {

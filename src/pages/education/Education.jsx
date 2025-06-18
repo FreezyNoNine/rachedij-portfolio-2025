@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import AristideBergesImg from '/aristide_berges.jpg';
+import PabloNerudaImg from '/pablo_neruda.jpg';
 import "./Education.css";
 
 function Education() {
@@ -8,7 +10,7 @@ function Education() {
 
             <div className="aristideberges">
                 <div className='aristidebergesimg-zone'>
-                    <a href={`https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers`}><img src="/aristide_berges.jpg" alt="Aristide Bergès" /></a>
+                    <a href={`https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers`}><img src={AristideBergesImg} alt="ABimg" id='ab-img'></img></a>
                 </div>
 
                 <div className='zone-title-aristideberges-diplome'>
@@ -22,7 +24,7 @@ function Education() {
 
             <div className="pabloneruda">
                 <div className='pablonerudaimg-zone'>
-                    <a href={`https://etudiant.lefigaro.fr/vos-etudes/etudes-secondaires/33902-bac-sti2d-option-sin-tout-savoir/`}><img src="/pablo_neruda.jpg" alt="Pablo Neruda" /></a>
+                    <a href={`https://etudiant.lefigaro.fr/vos-etudes/etudes-secondaires/33902-bac-sti2d-option-sin-tout-savoir/`}><img src={PabloNerudaImg} alt="PNimg" id='pn-img'></img></a>
                 </div>
 
                 <div className='zone-title-pabloneruda-diplome'>

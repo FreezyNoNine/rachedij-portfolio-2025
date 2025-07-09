@@ -4,6 +4,8 @@ import './Experiences.css';
 import FlipCard from '../../components/flipcards/Flipcard.jsx';
 import SoitecLogo from '/logo_soitec.jpg';
 import RHCLogo from '/rhc_logo.png';
+import IllustrationExcel from '/illustration-excel-blur.png';
+import IllustrationRHC from '/royal_hair_blur.png';
 
 function Experiences() {
     return (
@@ -12,7 +14,8 @@ function Experiences() {
                 <div className="card-1">
                     <FlipCard
                         frontImg={SoitecLogo}
-                        backText="Stage - 2023"
+                        backImg={IllustrationExcel}
+                        backText="Ajout de MVC pour contrôler l'import excel sur le logiciel de gestion de planning"
                     />
                     <section class="wrapper wcard-1">
                         <div class="top">Soitec</div>
@@ -22,7 +25,8 @@ function Experiences() {
                 <div className="card-2">
                     <FlipCard
                         frontImg={RHCLogo}
-                        backText="Stage - 2024"
+                        backImg={IllustrationRHC}
+                        backText="Création d'une charte graphique et d'un site web complet en HTML/CSS"
                     />
                     <section class="wrapper wcard-2">
                         <div class="top">Royal Hair Coiffure</div>

@@ -1,5 +1,37 @@
 .Contact {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(145deg, rgb(0, 68, 58) 0%, rgb(0, 119, 101) 50%, rgb(0, 225, 190) 100%);
+    position: relative;
+    background: linear-gradient(145deg, #00443a 0%, rgb(0, 119, 101) 50%, rgb(0, 225, 190) 100%);
+}
+
+#img-cdv {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+
+    #img-cdv {
+        width: 95%;
+        height: 40%;
+        top: 25%;
+        left: 2.5%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #img-cdv {
+        width:95%;
+        height: 30%;
+        top: 30%;
+        left: 2.5%;
+    }
+
 }

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-function FlipCard({ frontImg, backImg, frontText, backText }) {
+function FlipCard({ frontImg, backImg, backText }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
@@ -17,8 +17,9 @@ function FlipCard({ frontImg, backImg, frontText, backText }) {
           style={{ backgroundImage: `url(${frontImg})` }}
         >
         </div>
-        <div className="flip-card-back no-img">
-          <h1 className="back-text">{backText}</h1>
+        <div className="flip-card-back"
+          style={{ backgroundImage: `url(${backImg})` }}>
+          <h1 className="back-text" style={{ margin: `2vw` }}>{backText}</h1>
         </div>
       </motion.div>
     </div>
